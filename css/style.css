@@ -1,0 +1,63 @@
+/* YOUR CUSTOM STYLES */
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.view {
+    background: url("../img/image/header-background.jpg")no-repeat center center fixed rgba(0, 0, 0, 0.5);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.view .flex-center p{
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+.view .flex-center a{
+	font-size: 3rem;
+	color: #09c;
+}
+
+.navbar .container .navbar-brand img {
+    width: 150px;
+    height: 28px;
+}
+
+.navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
+    color: #fff;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+}
+
+.top-nav-collapse { 
+    background-color: #919db4;
+}
+
+.divider-new, .text-fluid, h1, h2, h3, h4, h5, h6{
+	color: #919db4;
+}
+
+.btn {
+	color: #09c;
+}
+
+.contactDetails p{
+    margin-bottom: 0;
+
+}
+
+#work .left-border{
+    border-left: 3px solid #6a6a6a;
+}
