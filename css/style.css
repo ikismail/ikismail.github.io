@@ -53,11 +53,15 @@ body,
 	color: #09c;
 }
 
-.contactDetails p{
+.information p{
     margin-bottom: 0;
 
 }
 
 #work .left-border{
-    border-left: 3px solid #6a6a6a;
+    border-left: 3px solid #919db4;
+}
+
+#work .title{
+   color :#6a6a6a;
 }
