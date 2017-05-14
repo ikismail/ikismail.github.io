@@ -55,7 +55,6 @@ body,
 
 .information p{
     margin-bottom: 0;
-
 }
 
 #work .left-border{
@@ -64,4 +63,9 @@ body,
 
 #work .title{
    color :#6a6a6a;
+}
+
+.section ul li{
+    display: inline;
+    list-style-type: disc;
 }
