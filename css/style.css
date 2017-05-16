@@ -11,21 +11,21 @@ body,
 }
 
 .view {
-    background: url("../img/image/header-background.jpg")no-repeat center center fixed rgba(0, 0, 0, 0.5);
+    background: url("../img/image/header-background.jpg") no-repeat center center fixed rgba(0, 0, 0, 0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.view .flex-center p{
-	padding-left: 8rem;
-	padding-right: 8rem;
+.view .flex-center p {
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
-.view .flex-center a{
-	font-size: 3rem;
-	color: #09c;
+.view .flex-center a {
+    font-size: 3rem;
+    color: #09c;
 }
 
 .navbar .container .navbar-brand img {
@@ -41,31 +41,83 @@ body,
     padding-right: 1.5rem;
 }
 
-.top-nav-collapse { 
+.top-nav-collapse {
     background-color: #919db4;
 }
 
-.divider-new, .text-fluid, h1, h2, h3, h4, h5, h6{
-	color: #919db4;
+.divider-new, .text-fluid, h1, h2, h3, h4, h5, h6 {
+    color: #919db4;
 }
 
 .btn {
-	color: #09c;
+    color: #09c;
 }
 
-.information p{
+.information p {
     margin-bottom: 0;
 }
 
-#work .left-border{
+#work .left-border {
     border-left: 3px solid #919db4;
 }
 
-#work .title{
-   color :#6a6a6a;
+#work .title {
+    color: #6a6a6a;
 }
 
-.section ul li{
+.section ul li {
     display: inline;
     list-style-type: disc;
 }
+
+/*Progress Bar*/
+.skill {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    margin-left: -14px;
+    padding-right: 20px; /* Add some right padding */
+    line-height: 30px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.java {
+    width: 70%;
+    background-color: #919db4;
+}
+
+.springJersey {
+    width: 65%;
+    background-color: #919db4;
+}
+
+.rest {
+    width: 75%;
+    background-color: #919db4;
+}
+
+.angularJs {
+    width: 60%;
+    background-color: #919db4;
+}
+
+.html {
+    width: 90%;
+    background-color: #919db4;
+}
+
+.css {
+    width: 85%;
+    background-color: #919db4;
+}
+
+.sql{
+    width: 65%;
+    background-color: #919db4;
+}
+
+/* Green */
+
+/*/.ProgessBar*/

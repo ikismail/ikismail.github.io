@@ -21,6 +21,15 @@
 
 <body>
 
+
+<!--PreLoader
+<div id="mdb-preloader" class="flex-center">
+    <div id="preloader-markup">
+    </div>
+</div>
+/.Preloader-->
+
+
 <!--Navigation-->
 <nav class="navbar navbar-toggleable-md  fixed-top navbar-dark scrolling-navbar lighten-3">
     <div class="container smooth-scroll">
@@ -35,13 +44,13 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link wow fadeInDown" href="#about">About</a>
+                    <a class="nav-link wow fadeInUp" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link wow fadeInDown" href="#work">Works</a>
+                    <a class="nav-link wow fadeInUp" href="#work">Works</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link wow fadeInDown" href="#projects">Projects</a>
+                    <a class="nav-link wow fadeInUp" href="#projects">Projects</a>
                 </li>
             </ul>
             <ul class="navbar-nav nav-flex-icons">
@@ -60,20 +69,20 @@
 </nav>
 <!--/.Navigation-->
 
-<!--Mask-->
+<!--Main-->
 <div class="view" id="main">
     <!--Intro content-->
     <div class="full-bg-img flex-center">
         <ul class="smooth-scroll">
             <li>
-                <h1 class="h1-responsive wow fadeInUp white-text">I'm Mohammed Ismail.</h1></li>
+                <h1 class="h1-responsive wow fadeInDown white-text">I'm Mohammed Ismail.</h1></li>
             <li>
-                <p class="h5-responsive wow fadeInUp white-text">Full Stack Web Developer, creating awesome and
+                <p class="h5-responsive wow fadeInDown white-text">Full Stack Web Developer, creating awesome and
                     effective web applications for companies around the globe. Let's start scrolling and learn more
                     about me.</p>
             </li>
             <li>
-                <a href="#about" class="down-scroll">
+                <a href="#about" class=" down-scroll waves-effect ">
                     <i class="fa fa-chevron-circle-down"></i>
                 </a>
             </li>
@@ -81,12 +90,12 @@
     </div>
     <!--/Intro content-->
 </div>
-<!--/.Mask-->
+<!--/.Main-->
 
 <!--Author box-->
 <div class="author-box" id="about">
     <!--Name-->
-    <h3 class="h3-responsive text-center">About Me</h3>
+    <h3 class="h3-responsive text-center wow fadeInDown">About Me</h3>
     <hr>
     <div class="row">
         <!--Avatar-->
@@ -117,12 +126,11 @@
 </div>
 <!--/.Author box-->
 
-
-<!--Section: Blog v.3-->
+<!--Section Work-->
 <section class="section extra-margins mx-5" id="work">
 
     <!--Section heading-->
-    <h3 class="h3-responsive text-center">Works</h3>
+    <h3 class="h3-responsive text-center  wow fadeInDown">Works</h3>
     <hr>
     <!--First row-->
     <div class="row z-depth-1 mb-r">
@@ -143,11 +151,11 @@
                 API-Portal, Collaboration and API-Gateway.</p>
             <p>Developed an AutomationTest for Collaboration team using Apache HTTP Client and JBehave test.</p>
             <p>Worked with: </p>
-            <div class="chip">Java</div>
-            <div class="chip">RESTfull Service</div>
-            <div class="chip">Jersey - JaxRS</div>
-            <div class="chip">JBehave</div>
-            <div class="chip">APIS</div>
+            <div class="chip wow zoomIn ">Java</div>
+            <div class="chip wow zoomIn" data-wow-delay="0.2s">RESTfull Service</div>
+            <div class="chip wow zoomIn" data-wow-delay="0.3s">Jersey - JaxRS</div>
+            <div class="chip wow zoomIn" data-wow-delay="0.4s">JBehave</div>
+            <div class="chip wow zoomIn" data-wow-delay="0.5s">APIS</div>
         </div>
         <!--/Second column-->
 
@@ -166,7 +174,7 @@
         </div>
         <!--/First column-->
         <!--Second column-->
-        <div class="col-md-9 mb-r mt-3">
+        <div class="col-md-9 mb-r mt-3 wow fadeInRight">
 
             <table class="table table-hover text-center">
                 <thead>
@@ -222,7 +230,28 @@
 
         <!--Second column-->
         <div class="col-md-9 mb-r mt-3 text-center">
-
+            <!--<h5 class="text-center mb-3"><strong>Things I Know</strong></h5>-->
+            <div class="container skill mb-1">
+                <div class="skills java wow fadeInLeft">Java</div>
+            </div>
+            <div class="container skill mb-1">
+                <div class="skills springJersey wow fadeInLeft" data-wow-delay="0.2s">Spring - Jersey - Hibernate</div>
+            </div>
+            <div class="container skill mb-1">
+                <div class="skills rest wow fadeInLeft" data-wow-delay="0.3s">REST Service</div>
+            </div>
+            <div class="container skill mb-1">
+                <div class="skills angularJs wow fadeInLeft" data-wow-delay="0.4s">AngularJS</div>
+            </div>
+            <div class="container skill mb-1">
+                <div class="skills html wow fadeInLeft" data-wow-delay="0.3s">HTML</div>
+            </div>
+            <div class="container skill mb-1">
+                <div class="skills css wow fadeInLeft" data-wow-delay="0.2s">CSS</div>
+            </div>
+            <div class="container skill mb-1">
+                <div class="skills sql wow fadeInLeft">SQL</div>
+            </div>
         </div>
         <!--/Second column-->
 
@@ -231,7 +260,6 @@
 
 </section>
 <!--/Section-->
-
 
 <!--Projects section -->
 <section class="section" id="projects">
@@ -249,7 +277,7 @@
 
             <!--Featured image-->
             <div class="view overlay hm-white-slight z-depth-2">
-                <img src="img/image/shoppingcart.jpg">
+                <img src="img/image/shoppingcart.jpg" class="wow flipInY">
                 <a>
                     <div class="mask waves-effect waves-light"></div>
                 </a>
@@ -260,7 +288,7 @@
                 <a class="purple-text"><h4><i
                         class="fa fa-shopping-cart"></i> Shopping Cart</h4></a>
                 <p>Developed an end to end Ecommerce web Application using Spring MVC.</p>
-                <a class="btn btn-ins" href="https://github.com/ikismail/ShoppingCart.git" target="_blank"><i
+                <a class="btn waves-effect btn-ins" href="https://github.com/ikismail/ShoppingCart.git" target="_blank"><i
                         class="fa fa-github left"></i> View project</a>
             </div>
 
@@ -272,7 +300,7 @@
 
             <!--Featured image-->
             <div class="view overlay hm-white-slight z-depth-2">
-                <img src="img/image/collaboratio.jpg">
+                <img src="img/image/collaboratio.jpg" class="wow flipInY">
                 <a>
                     <div class="mask waves-effect waves-light"></div>
                 </a>
@@ -285,7 +313,8 @@
                 <p>Developed a Collaboration Web Application using Angular JS, Java Spring MVC and Hibernate. This
                     Collaboration site is an online Social website to enable alumni to interact with existing students
                     to share their experience and knowledge.</p>
-                <a class="btn btn-ins" href="https://github.com/ikismail/CollabrationBackend.git" target="_blank"><i
+                <a class="btn waves-effect  btn-ins" href="https://github.com/ikismail/CollabrationBackend.git"
+                   target="_blank"><i
                         class="fa fa-github left"></i> View project</a>
             </div>
 
@@ -297,7 +326,7 @@
 
             <!--Featured image-->
             <div class="view overlay hm-white-slight z-depth-2">
-                <img src="img/image/todo.jpg">
+                <img src="img/image/todo.jpg" class="wow flipInY">
                 <a>
                     <div class="mask waves-effect waves-light"></div>
                 </a>
@@ -308,7 +337,8 @@
                 <a class="indigo-text"><h4><i
                         class="fa fa-calendar-check-o"></i> To-do-List</h4></a>
                 <p>Developed a To-Do-List Web Application using Angular JS, Java Spring MVC and Hibernate.</p>
-                <a class="btn btn-ins" href="https://github.com/ikismail/ReminderFrontEnd.git" target="_blank"><i
+                <a class="btn waves-effect  btn-ins" href="https://github.com/ikismail/ReminderFrontEnd.git"
+                   target="_blank"><i
                         class="fa fa-github left"></i> View project</a>
             </div>
 
@@ -319,7 +349,7 @@
 </section>
 <!--/Projects section -->
 
-
+<!--Quotes-->
 <div class="streak streak-lg streak-photo"
      style="background-image:url('img/image/testimonials-back.jpg')">
     <div class="flex-center pattern-1">
@@ -338,7 +368,7 @@
                         <div class="avatar">
 
                             <img src="img/image/steve.jpg"
-                                 class="rounded-circle img-fluid" alt="Steve Jobs">
+                                 class="rounded-circle img-fluid " alt="Steve Jobs">
 
                         </div>
                         <!--Content-->
@@ -397,24 +427,40 @@
         <!--/.Carousel Wrapper-->
     </div>
 </div>
+<!--/.Quotes-->
 
 <!--Footer-->
 <footer class="page-footer center-on-small-only">
 
+    <!--First column-->
+    <div class="col-md-3 offset-md-1">
+        <h5 class="title">Contact Us</h5>
+        <p>Mohammed Ismail</p>
+        <a href="#"><i class="fa fa-envelope mr-3"></i>ikismail7@gmail.com</a>
+    </div>
+    <!--/.First column-->
+
     <!--Social buttons-->
     <div class="social-section smooth-scroll">
         <ul>
-            <li><a class="btn-floating btn-small btn-fb" href="https://www.facebook.com/ikismail7" target="_blank"><i
+            <li><a class="btn-floating btn-small btn-fb wow fadeInUp" href="https://www.facebook.com/ikismail7"
+                   target="_blank"><i
                     class="fa fa-facebook"> </i></a>
             </li>
-            <li><a class="btn-floating btn-small btn-tw" href="" target="_blank"><i class="fa fa-twitter"> </i></a></li>
-            <li><a href="google.com/+MohammedIsmailik" class="btn-floating btn-small btn-gplus" target="_blank"><i
+            <li><a class="btn-floating btn-small btn-tw wow fadeInUp" href="" target="_blank" data-wow-delay="0.2s"><i
+                    class="fa fa-twitter"> </i></a></li>
+            <li><a href="google.com/+MohammedIsmailik" class="btn-floating btn-small btn-gplus wow fadeInUp"
+                   data-wow-delay="0.3s" target="_blank"><i
                     class="fa fa-google-plus"> </i></a></li>
-            <li><a class="btn-floating btn-large mdb-color mb-5" href="#main"><i class="fa fa-arrow-up"> </i></a></li>
-            <li><a class="btn-floating btn-small btn-li" href="" target="_blank"><i class="fa fa-linkedin"> </i></a>
+            <li><a class="btn-floating btn-large mdb-color mb-5 wow fadeInUp" data-wow-delay="0.4s" href="#main"><i
+                    class="fa fa-arrow-up"> </i></a></li>
+            <li><a class="btn-floating btn-small btn-li wow fadeInUp" href="" data-wow-delay="0.3s" target="_blank"><i
+                    class="fa fa-linkedin"> </i></a>
             </li>
-            <li><a class="btn-floating btn-small btn-git" href="" target="_blank"><i class="fa fa-github"> </i></a></li>
-            <li><a class="btn-floating btn-small btn-ins" href="" target="_blank"><i class="fa fa-instagram"> </i></a>
+            <li><a class="btn-floating btn-small btn-git wow fadeInUp" href="" data-wow-delay="0.2s" target="_blank"><i
+                    class="fa fa-github"> </i></a></li>
+            <li><a class="btn-floating btn-small btn-ins wow fadeInUp" href="" target="_blank"><i
+                    class="fa fa-instagram"> </i></a>
             </li>
         </ul>
     </div>
@@ -423,7 +469,7 @@
     <!--Copyright-->
     <div class="footer-copyright">
         <div class="container-fluid">
-            © 2018 Copyright: <a href="https://www.MDBootstrap.com"> Mohammed Ismail </a>
+            © 2018 Copyright: <a href="#"> Mohammed Ismail </a>
 
         </div>
     </div>
@@ -444,6 +490,11 @@
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- compiled Script -->
 <script type="text/javascript" src="js/compiledScript.js"></script>
+
+<script>
+    new WOW().init();
+</script>
+
 </body>
 
 </html>
