@@ -113,11 +113,19 @@ body,
     background-color: #919db4;
 }
 
-.sql{
+.sql {
     width: 65%;
     background-color: #919db4;
 }
 
-/* Green */
+.testimonial-card .card-block, .testimonial-carousel {
+    /*text-align: center*/
+}
+.section steak.lg{
+    height: 600px;
+}
 
-/*/.ProgessBar*/
+.testimonial {
+    margin-left: 15%;
+    margin-right: 15%;
+}
