@@ -14,7 +14,7 @@ var chart = AmCharts.makeChart("chartdiv",
             "name": "Spring , Jersey",
             "points": 65,
             "color": "#6bb344",
-            "bullet": "http://www.unixstickers.com/image/cache/data/stickers/spring/xspring-leaf.sh-340x340.png.pagespeed.ic.K5PrZIokfE.png"
+            "bullet": "http://2.bp.blogspot.com/-Fk4so6c67Ew/UgD1GL_PR1I/AAAAAAAAAYA/UF5aBZxgZkY/s1600/Spring.sh-600x600.png"
         },
             {
                 "name": "REST",
