@@ -30,7 +30,7 @@ var chart = AmCharts.makeChart("chartdiv",
                 "name": "HTML + CSS",
                 "points": 90,
                 "color": "#e44d26",
-                "bullet": "http://www.zenperfectdesign.com/img/ico/html-css.png"
+                "bullet": "http://zuyainfotech.com/wp-content/uploads/2015/09/html5-css3.png"
             }],
         "valueAxes": [{
             "maximum": 100,
