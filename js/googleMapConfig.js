@@ -12,7 +12,8 @@ function initMap() {
     marker = new google.maps.Marker({
         map: map,
         animation: google.maps.Animation.DROP,
-        position: myLatLng
+        position: myLatLng,
+        title : "Mohammed Ismail"
     });
     marker.addListener('click', toggleBounce);
 }
