@@ -15,18 +15,17 @@ var chart = AmCharts.makeChart("chartdiv",
             "points": 65,
             "color": "#6bb344",
             "bullet": "http://i.imgur.com/4jUEVrp.png"
-        },
-            {
+        }, {
                 "name": "REST",
                 "points": 75,
                 "color": "#5c6f8b",
                 "bullet": "http://i.imgur.com/5zxE6XW.png"
-            }, {
+         }, {
                 "name": "AngularJS",
                 "points": 60,
                 "color": "#b82933",
                 "bullet": "http://i.imgur.com/2jbTh5K.png"
-            }, {
+         }, {
                 "name": "HTML + CSS",
                 "points": 90,
                 "color": "#e44d26",

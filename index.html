@@ -16,56 +16,55 @@
     <link rel="stylesheet" type="text/css" href="css/compiledCss.css">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
-	<link rel="icon" href="img/logo/developers.png" type="image/png">
+    <link rel="icon" href="img/logo/developers.png" type="image/png">
 
 </head>
 
 <body>
-
-
-<!--PreLoader
-<div id="mdb-preloader" class="flex-center">
+ 
+<!-- Preloader
+ <div id="mdb-preloader" class="flex-center">
     <div id="preloader-markup">
     </div>
 </div>
-/.Preloader-->
 
+/Preloader -->
 
 <!--Navigation-->
 <nav class="navbar navbar-toggleable-md  fixed-top navbar-dark scrolling-navbar lighten-3">
-    <div class="container smooth-scroll">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#main">
-            <img src="img/logo/ismail_logo.png" class="d-inline-block align-top" alt="Mohammed Ismail-Portfolio">
-        </a>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
+            <div class="smooth-scroll">
+                <a class="navbar-brand " href="#main">
+                    <img src="img/logo/ismail_logo.png" class="d-inline-block align-top" alt="Mohammed Ismail-Portfolio">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto smooth-scroll">
 
                 <li class="nav-item">
                     <a class="nav-link wow fadeInUp" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link wow fadeInUp" href="#work">Works</a>
+                    <a class="nav-link wow fadeInUp" href="#work">Work</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link wow fadeInUp" href="#projects">Projects</a>
                 </li>
+                <li class="nav-item ">
+                    <a class="nav-link wow fadeInUp" href="#contact">Contact Us</a>
+                </li>
             </ul>
             <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item">
-                    <a class="nav-link" href="http://github.com/ikismail"><i class="fa fa-github"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                    <a class="nav-link" href="http://github.com/ikismail" target="_blank"><i class="fa fa-github" style="font-size: 18px"></i>Github</a>
                 </li>
             </ul>
         </div>
+
     </div>
 </nav>
 <!--/.Navigation-->
@@ -90,7 +89,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     </div>
@@ -106,15 +104,17 @@
     <div class="row">
         <!--Avatar-->
         <div class="col-12 col-sm-2 mx-5">
-            <img src="img/image/profilepic.jpg" class="img-fluid rounded-circle z-depth-2">
+            <img src="img/image/avatar.jpg" class="img-fluid rounded-circle z-depth-2">
         </div>
         <!--Author Data-->
         <div class="col-12 col-sm-8">
             <p><strong>Mohammed Ismail.A</strong></p>
             <div class="personal-sm">
-                <a class="email-ic"><i class="fa fa-github"> </i></a>
-                <a class="li-ic"><i class="fa fa-linkedin"> </i></a>
-                <a class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                <a href="https://github.com/ikismail/" target="_blank" class="email-ic"><i
+                        class="fa fa-github"> </i></a>
+                <a href="https://www.linkedin.com/in/ikismail/" target="_blank" class="li-ic"><i
+                        class="fa fa-linkedin"> </i></a>
+                <a href="mailto:ikismail7@gmail.com" class="email-ic"><i class="fa fa-envelope-o"> </i></a>
             </div>
             <p>Having a year of experience in developing full stack Web Applications from scratch.</p>
             <p class="hidden-md-down">Developed lot of Web Applications from scratch using Java SpringMVC, Hibernate,
@@ -160,20 +160,27 @@
                             </p>
                             <p class="white-text mt-1">Currently doing an internship in Research & Development Team at
                                 Software-AG.</p>
-                            <p class="white-text">Here I had learned lot of technologies and faced lot of real time
+                            <p class="white-text">I had learned lot of technologies here and faced lot of real time
                                 problems as a
-                                developer, worked in
+                                developer, worked with teams like
                                 API-Portal, Collaboration and API-Gateway.</p>
                             <p class="white-text">Developed an AutomationTest for Collaboration team using Apache HTTP
                                 Client and
                                 JBehave test.</p>
+                            <p class="white-text">Developed a payment-gateway using Stripe API's.</p>
                             <p class="white-text my-1"><span class="highlight">Technologies</span> worked with:
                             </p>
-                            <div class="chip wow zoomIn "><a href="">Java</a></div>
-                            <div class="chip wow zoomIn" data-wow-delay="0.2s"><a href="">RESTfull Service</a></div>
-                            <div class="chip wow zoomIn" data-wow-delay="0.3s"><a href="">Jersey - JaxRS</a></div>
-                            <div class="chip wow zoomIn" data-wow-delay="0.4s"><a href="">JBehave</a></div>
-                            <div class="chip wow zoomIn" data-wow-delay="0.5s"><a href="">APIS</a></div>
+                            <div class="chip wow zoomIn "><a href="" onclick="return false;">Java</a></div>
+                            <div class="chip wow zoomIn" data-wow-delay="0.2s"><a href="" onclick="return false;">RESTfull
+                                Service</a></div>
+                            <div class="chip wow zoomIn" data-wow-delay="0.3s"><a href="" onclick="return false;">Jersey
+                                - JaxRS</a></div>
+                            <div class="chip wow zoomIn" data-wow-delay="0.4s"><a href="" onclick="return false;">JBehave</a>
+                            </div>
+                            <div class="chip wow zoomIn" data-wow-delay="0.5s"><a href=""
+                                                                                  onclick="return false;">APIS</a></div>
+                            <div class="chip wow zoomIn" data-wow-delay="0.5s"><a href="" onclick="return false;">AngularJS</a>
+                            </div>
                         </div>
 
                     </div>
@@ -239,7 +246,8 @@
                 <a class="purple-text"><h4><i
                         class="fa fa-shopping-cart"></i> Shopping Cart</h4></a>
                 <p>Developed an end to end Ecommerce web Application using Spring MVC.</p>
-                <a class="btn waves-effect btn-ins" href="https://github.com/ikismail/ShoppingCart.git" target="blank"><i
+                <a class="btn waves-effect btn-ins" href="https://github.com/ikismail/ShoppingCart.git"
+                   target="blank"><i
                         class="fa fa-github left"></i> View project</a>
             </div>
 
@@ -306,13 +314,12 @@
     <div class="flex-center pattern-1">
         <!--Carousel Wrapper-->
         <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
-             data-ride="carousel"
-             data-interval="false">
+             data-ride="carousel">
 
             <!--Slides-->
             <div class="carousel-inner" role="listbox">
                 <!--First slide-->
-                <div class="carousel-item active">
+                <div class="item active">
 
                     <div class="testimonial">
                         <!--Avatar-->
@@ -334,15 +341,13 @@
                 <!--/First slide-->
 
                 <!--Second slide-->
-                <div class="carousel-item">
+                <div class="item">
 
                     <div class="testimonial">
                         <!--Avatar-->
                         <div class="avatar">
-
                             <img src="img/image/sundar1.png"
                                  class="rounded-circle img-fluid" alt="Sundar Pichai">
-
                         </div>
                         <!--Content-->
                         <h2 class="h2-responsive wow fadeIn white-text"><i class="fa fa-quote-left"
@@ -354,15 +359,27 @@
 
                 </div>
                 <!--/Second slide-->
+
+                <!--Third slide-->
+                <div class="item">
+
+                    <div class="testimonial">
+                        <!--Avatar-->
+                        <div class="avatar">
+                            <img src="img/image/ambani.jpg"
+                                 class="rounded-circle img-fluid" alt="Mukesh Ambani">
+                        </div>
+                        <!--Content-->
+                        <h2 class="h2-responsive wow fadeIn white-text"><i class="fa fa-quote-left"
+                                                                           aria-hidden="true"></i> Meeting the deadlines
+                            is not good enough, beating the deadlines is my expectation. <i
+                                    class="fa fa-quote-right" aria-hidden="true"></i></h2>
+
+                    </div>
+
+                </div>
+                <!--/Third slide-->
             </div>
-            <!--/.Slides-->
-            <!--Indicators-->
-            <!--<ol class="carousel-indicators" style="bottom: -41px">-->
-            <!--<li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>-->
-            <!--<li data-target="#carousel-example-1" data-slide-to="1"></li>-->
-            <!--</ol>-->
-            <!--/.Indicators-->
-            <!--Controls-->
             <a class="carousel-item-prev left carousel-control white-text" href="#carousel-example-1" role="button"
                data-slide="prev">
                 <span class="icon-prev" aria-hidden="true"></span>
@@ -380,35 +397,47 @@
 </div>
 <!--/.Quotes-->
 
+<!--Contact Us-->
+<div id="contact">
+    <h1 class="h3-responsive text-center my-3">Contact Us</h1>
+    <div id="map-container" class="map z-depth-1"></div>
+</div>
+<!--/.Contact Us-->
+
 <!--Footer-->
-<footer class="page-footer center-on-small-only">
+<footer class="page-footer center-on-small-only ">
 
     <!--First column-->
     <div class="col-md-3 offset-md-1">
         <h5 class="title">Contact Us</h5>
         <p>Mohammed Ismail</p>
-        <a href="#"><i class="fa fa-envelope mr-3"></i>ikismail7@gmail.com</a>
+        <a href="mailto:ikismail7@gmail.com"><i class="fa fa-envelope mr-3"></i>ikismail7@gmail.com</a>
     </div>
     <!--/.First column-->
 
     <!--Social buttons-->
-    <div class="social-section smooth-scroll">
+    <div class="social-section ">
         <ul>
             <li><a class="btn-floating btn-small btn-fb wow fadeInUp" href="https://www.facebook.com/ikismail7"
                    target="_blank"><i
                     class="fa fa-facebook"> </i></a>
             </li>
-            <li><a class="btn-floating btn-small btn-tw wow fadeInUp" href="" target="_blank" data-wow-delay="0.2s"><i
+            <li><a class="btn-floating btn-small btn-tw wow fadeInUp" href="https://www.facebook.com/ikismail7"
+                   target="_blank" data-wow-delay="0.2s"><i
                     class="fa fa-twitter"> </i></a></li>
             <li><a href="google.com/+MohammedIsmailik" class="btn-floating btn-small btn-gplus wow fadeInUp"
                    data-wow-delay="0.3s" target="_blank"><i
                     class="fa fa-google-plus"> </i></a></li>
-            <li><a class="btn-floating btn-large mdb-color mb-5 wow fadeInUp" data-wow-delay="0.4s" href="#main"><i
+            <li class="smooth-scroll"><a class="btn-floating btn-large mdb-color mb-5 wow fadeInUp"
+                                         data-wow-delay="0.4s" href="#main"><i
                     class="fa fa-arrow-up"> </i></a></li>
-            <li><a class="btn-floating btn-small btn-li wow fadeInUp" href="" data-wow-delay="0.3s" target="_blank"><i
+            <li><a class="btn-floating btn-small btn-li wow fadeInUp" href="https://www.linkedin.com/in/ikismail/"
+                   data-wow-delay="0.3s" target="_blank"><i
                     class="fa fa-linkedin"> </i></a>
             </li>
-            <li><a class="btn-floating btn-small btn-git wow fadeInUp" href="" data-wow-delay="0.2s" target="_blank"><i
+            <li><a class="btn-floating btn-small btn-git wow fadeInUp" href="https://www.github.com/ikismail"
+                   data-wow-delay="0.2s"
+                   target="_blank"><i
                     class="fa fa-github"> </i></a></li>
             <li><a class="btn-floating btn-small btn-ins wow fadeInUp" href="" target="_blank"><i
                     class="fa fa-instagram"> </i></a>
@@ -450,7 +479,10 @@
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- compiled Script -->
 <script type="text/javascript" src="js/compiledScript.js"></script>
+<!--Google Map-->
 
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUXTKzg4dx8gJ7UTJljQSXKtX3rdsHz0k&callback=initMap"></script>
+<script type="text/javascript" src="js/googleMapConfig.js"></script>
 <script>
     new WOW().init();
 </script>
