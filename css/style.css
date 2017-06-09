@@ -30,7 +30,7 @@ body,
 
 .navbar .container .navbar-brand img {
     width: 168px;
-    height: 40px;
+    height: 47px;
 }
 
 .navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
@@ -131,6 +131,12 @@ span .highlight {
     margin: 0px !important;
 }
 
+.map {
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 300px
+}
+
 .scroller {
     height: 66pt;
     margin-top: 13px;
@@ -141,39 +147,20 @@ span .highlight {
 .scroller .inner {
     animation: 10s normal infinite running scroll;
 }
-
 @keyframes scroll {
-    0% {
-        margin-top: 0px;
-    }
-    15% {
-        margin-top: 0px;
-    }
+    0%  	{margin-top: 0px;}
+    15% 	{margin-top: 0px;}
 
-    25% {
-        margin-top: -70pt;
-    }
-    40% {
-        margin-top: -70pt;
-    }
+    25%  {margin-top: -70pt;}
+    40%  {margin-top: -70pt;}
 
-    50% {
-        margin-top: -140pt;
-    }
-    65% {
-        margin-top: -140pt;
-    }
+    50%  {margin-top: -140pt;}
+    65%  {margin-top: -140pt;}
 
-    75% {
-        margin-top: -210pt;
-    }
-    90% {
-        margin-top: -210pt;
-    }
+    75%  {margin-top: -210pt;}
+    90%  {margin-top: -210pt;}
 
-    100% {
-        margin-top: 0px;
-    }
+    100% {margin-top: 0px;}
 }
 
 /*==========  Mobile First Method  ==========*/

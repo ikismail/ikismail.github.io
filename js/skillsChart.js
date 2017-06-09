@@ -9,28 +9,28 @@ var chart = AmCharts.makeChart("chartdiv",
             "name": "Java",
             "points": 70,
             "color": "#e76f00",
-            "bullet": "http://vignette1.wikia.nocookie.net/egamia/images/6/63/Java_avatar.png/revision/latest?cb=20081111001200.png"
+            "bullet": "http://i.imgur.com/xxT7Dj2.png"
         }, {
             "name": "Spring , Jersey",
             "points": 65,
             "color": "#6bb344",
-            "bullet": "http://2.bp.blogspot.com/-Fk4so6c67Ew/UgD1GL_PR1I/AAAAAAAAAYA/UF5aBZxgZkY/s1600/Spring.sh-600x600.png"
+            "bullet": "http://i.imgur.com/4jUEVrp.png"
         },
             {
                 "name": "REST",
                 "points": 75,
                 "color": "#5c6f8b",
-                "bullet": "https://cdn1.iconfinder.com/data/icons/30-seo-web-development-flat-icons-part-1/218/API-512.png"
+                "bullet": "http://i.imgur.com/5zxE6XW.png"
             }, {
                 "name": "AngularJS",
                 "points": 60,
                 "color": "#b82933",
-                "bullet": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAqfAAAAJDQwZWJiNTdkLThiYjUtNGQ2YS1iMzJjLTRiMmQ5YjZiMDNiNw.png"
+                "bullet": "http://i.imgur.com/2jbTh5K.png"
             }, {
                 "name": "HTML + CSS",
                 "points": 90,
                 "color": "#e44d26",
-                "bullet": "http://www.zenperfectdesign.com/img/ico/html-css.png"
+                "bullet": "http://i.imgur.com/3RtSmm1.png"
             }],
         "valueAxes": [{
             "maximum": 100,
