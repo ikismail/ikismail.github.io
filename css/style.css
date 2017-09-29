@@ -64,6 +64,10 @@ body,
 #work .title {
     color: #6a6a6a;
 }
+#work .carousel .content-list p{
+  margin-bottom: 10px;
+}
+
 
 .section ul li {
     display: inline;
