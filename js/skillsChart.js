@@ -5,7 +5,8 @@ var chart = AmCharts.makeChart("chartdiv",
     {
         "type": "serial",
         "theme": "light",
-        "dataProvider": [{
+        "dataProvider": [
+        {
             "name": "Java",
             "points": 70,
             "color": "#e76f00",
