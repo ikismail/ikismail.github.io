@@ -8,6 +8,7 @@ body,
 
 .navbar {
     background-color: transparent;
+    width: 100%;
 }
 
 .view {
@@ -16,6 +17,7 @@ body,
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 101%;
 }
 
 .view .flex-center p {
@@ -33,6 +35,21 @@ body,
     height: 47px;
 }
 
+.navbar.scrolling-navbar {
+    z-index: 100;
+    width: 96%;
+}
+
+@media (min-width: 600px){
+    .navbar.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 100%;
+    }
+}
+
 .navbar.navbar-dark .breadcrumb a, .navbar.navbar-dark .navbar-nav .nav-item a {
     color: #fff;
 }
@@ -47,6 +64,10 @@ body,
 
 .divider-new, .text-fluid, h1, h2, h3, h4, h5, h6 {
     color: #919db4;
+}
+
+.author-box{
+    width: 101%;
 }
 
 .btn {
