@@ -50,7 +50,7 @@ html, body, .view {
     background-color: #919db4;
 }
 .divider-new, .text-fluid, h1, h2, h3, h4, h5, h6 {
-    color: #919db4;
+    color: #2e5e86;
 }
 .author-box {
     width: 100%;
@@ -100,6 +100,14 @@ span .highlight {
     background-color: #ddd;
     /* Grey background */
 }
+
+/* Hiding github contribution if mobile view */
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .calendarView{
+        display:none;
+    }
+}
+
 @media (min-width: 370px) {
     .testimonial {
         margin-left: 15%;
