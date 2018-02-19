@@ -74,17 +74,12 @@ html, body, .view {
 #work .carousel .content-list p {
     margin-bottom: 10px;
 }
-
-
-.section{
+.section {
     margin-bottom: 0 !important;
 }
-
 #projects .container .row .card-project .card-block {
     margin-top: 15px;
 }
-
-
 .section ul li {
     display: inline;
     list-style-type: disc;
@@ -100,27 +95,31 @@ span .highlight {
     background-color: #ddd;
     /* Grey background */
 }
-
 /* Hiding github contribution if mobile view */
+
 @media screen and (min-width: 0px) and (max-width: 400px) {
-    .calendarView{
-        display:none;
+    .calendarView {
+        display: none;
     }
 }
 
+@media (max-width: 400px) {
+    .author-quote {
+        height: 500px !important;
+    }
+}
 @media (min-width: 370px) {
     .testimonial {
         margin-left: 15%;
         margin-right: 15%;
     }
 }
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-    .testimonial{
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .testimonial {
         margin-left: 0%;
         margin-right: 0%;
     }
 }
-
 /*Home Text Slider*/
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
@@ -208,6 +207,7 @@ span .highlight {
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
+
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     #textSlider.row {
