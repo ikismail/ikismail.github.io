@@ -123,9 +123,11 @@ span .highlight {
 /*Home Text Slider*/
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
-#myPageContent {
+.myPageContent {
     height: 100% !important;
     width: 100% !important;
+    background-color: rgb(255, 255, 255); background-image: url('../img/image/macbook-air-all-faded-and-stuff.jpg'); 
+    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;
 }
 /* Slider */
 
