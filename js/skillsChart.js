@@ -143,7 +143,7 @@ var gaugeChart = AmCharts.makeChart("chartdiv", {
     "color": "#df3a40",
     "align": "right"
   }, {
-    "text": "JAVA",
+    "text": "Angular",
     "x": "49%",
     "y": "15%",
     "size": 15,
