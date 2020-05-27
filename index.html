@@ -40,13 +40,27 @@
       href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
     />
     <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-  <link rel="stylesheet" href="styles.be6c2c6ed5c697bc903c.css"></head>
+    <link rel="stylesheet" href="styles.be6c2c6ed5c697bc903c.css" />
+  </head>
 
   <body class="is-preload">
     <div id="loader-wrapper" display="none">
       <div id="loader"></div>
     </div>
     <app-root></app-root>
+
+    <!-- note that the form below is hidden, but necessary for auto-form handling with Netlify -->
+    <form
+      name="contact"
+      subject="A Message From Personal Website"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="text" name="name" />
+      <input type="email" name="from" />
+      <textarea name="message"></textarea>
+    </form>
 
     <!-- Scripts -->
     <script src="./assets/js/jquery.min.js"></script>
@@ -61,5 +75,14 @@
     });
 
   </script> -->
-  <script src="runtime-es2015.744451ff3d86ea372fe3.js" type="module"></script><script src="runtime-es5.744451ff3d86ea372fe3.js" nomodule defer></script><script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script><script src="polyfills-es2015.690002c25ea8557bb4b0.js" type="module"></script><script src="main-es2015.3355727151b787858acf.js" type="module"></script><script src="main-es5.3355727151b787858acf.js" nomodule defer></script></body>
+    <script src="runtime-es2015.744451ff3d86ea372fe3.js" type="module"></script>
+    <script src="runtime-es5.744451ff3d86ea372fe3.js" nomodule defer></script>
+    <script src="polyfills-es5.9e286f6d9247438cbb02.js" nomodule defer></script>
+    <script
+      src="polyfills-es2015.690002c25ea8557bb4b0.js"
+      type="module"
+    ></script>
+    <script src="main-es2015.3355727151b787858acf.js" type="module"></script>
+    <script src="main-es5.3355727151b787858acf.js" nomodule defer></script>
+  </body>
 </html>
