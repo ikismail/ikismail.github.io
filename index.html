@@ -6,7 +6,10 @@
   <title>Mohammed Ismail | Senior Frontend Engineer</title>
   <meta name="description" content="Mohammed Ismail — Senior Frontend Engineer in Chennai with 9+ years building React, React Native and Angular products across healthcare, enterprise SaaS and cross-platform mobile." />
   <meta name="author" content="Mohammed Ismail" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <meta name="keywords" content="Mohammed Ismail, Senior Frontend Engineer, React developer, React Native developer, Angular, TypeScript, frontend architect, Chennai, India, freelance" />
   <link rel="canonical" href="https://ikismail.github.io/" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
@@ -18,16 +21,34 @@
   <meta property="og:url" content="https://ikismail.github.io/" />
   <meta property="og:title" content="Mohammed Ismail | Senior Frontend Engineer" />
   <meta property="og:description" content="React and React Native specialist building healthcare systems, enterprise SaaS and cross-platform mobile products — from architecture to production." />
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/17190913?v=4" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://ikismail.github.io/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Mohammed Ismail — Senior Frontend Engineer. React, React Native and Angular." />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:creator" content="@ikismail7" />
   <meta name="twitter:title" content="Mohammed Ismail | Senior Frontend Engineer" />
   <meta name="twitter:description" content="React and React Native specialist building healthcare systems, enterprise SaaS and cross-platform mobile products." />
-  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/17190913?v=4" />
+  <meta name="twitter:site" content="@ikismail7" />
+  <meta name="twitter:image" content="https://ikismail.github.io/og-image.png" />
+  <meta name="twitter:image:alt" content="Mohammed Ismail — Senior Frontend Engineer. React, React Native and Angular." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Loaded here rather than via CSS @import so the font request starts in parallel with the app stylesheet. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" />
+
+  <!-- Microsoft Clarity (session analytics). Loads async, does not block rendering. -->
+  <script>
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "nfum7f9j2k");
+  </script>
 
   <script>
     // Resolve theme before first paint so the page never flashes the wrong palette.
@@ -48,25 +69,48 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Mohammed Ismail",
-    "url": "https://ikismail.github.io/",
-    "image": "https://avatars.githubusercontent.com/u/17190913?v=4",
-    "jobTitle": "Senior Frontend Engineer",
-    "email": "mailto:ikismail7@gmail.com",
-    "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
-    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Park College of Engineering and Technology" },
-    "worksFor": { "@type": "Organization", "name": "BiznessForce Software Solutions Pte Ltd" },
-    "knowsAbout": ["React", "React Native", "TypeScript", "Angular", "Vue.js", "Next.js", "Node.js", "Expo", "Frontend Architecture"],
-    "sameAs": [
-      "https://github.com/ikismail",
-      "https://www.linkedin.com/in/ikismail7/",
-      "https://x.com/ikismail7"
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": "https://ikismail.github.io/#profilepage",
+        "url": "https://ikismail.github.io/",
+        "name": "Mohammed Ismail | Senior Frontend Engineer",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://ikismail.github.io/#website" },
+        "mainEntity": { "@id": "https://ikismail.github.io/#person" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://ikismail.github.io/#website",
+        "url": "https://ikismail.github.io/",
+        "name": "Mohammed Ismail",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://ikismail.github.io/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://ikismail.github.io/#person",
+        "name": "Mohammed Ismail",
+        "url": "https://ikismail.github.io/",
+        "image": "https://avatars.githubusercontent.com/u/17190913?v=4",
+        "description": "Senior Frontend Engineer in Chennai with 9+ years building React, React Native and Angular products across healthcare, enterprise SaaS and cross-platform mobile.",
+        "jobTitle": "Senior Frontend Engineer",
+        "email": "mailto:ikismail7@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Park College of Engineering and Technology" },
+        "worksFor": { "@type": "Organization", "name": "BiznessForce Software Solutions Pte Ltd" },
+        "knowsAbout": ["React", "React Native", "TypeScript", "Angular", "Vue.js", "Next.js", "Node.js", "Expo", "Frontend Architecture"],
+        "sameAs": [
+          "https://github.com/ikismail",
+          "https://www.linkedin.com/in/ikismail7/",
+          "https://x.com/ikismail7"
+        ]
+      }
     ]
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-D0aWKdsa.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Wpnoxh8R.css">
+  <script type="module" crossorigin src="/assets/index-Bd3myZ-X.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DM6AY9CK.css">
 </head>
 <body>
   <div id="root"><link rel="preload" as="image" href="https://avatars.githubusercontent.com/u/17190913?v=4"/><a class="skip-link" href="#main">Skip to content</a><header class="nav-wrap"><div class="container nav"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">MI</span><span class="brand-text"><strong>Mohammed Ismail</strong><small>Senior Frontend Engineer</small></span></a><nav class="nav-links" aria-label="Primary"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#stack">Stack</a><a href="#open-source">Open Source</a><a href="#reviews">Reviews</a></nav><div class="nav-actions"><button class="btn btn-ghost btn-icon" aria-label="Switch to dark theme"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button><a class="btn btn-ghost btn-icon nav-social" href="https://github.com/ikismail" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a><a class="btn btn-primary btn-sm" href="/Mohammed_Ismail_Resume.pdf" download=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg> Résumé</a><button class="btn btn-ghost btn-icon nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button></div></div></header><main id="main"><section class="hero" id="top"><div class="container hero-inner"><div class="hero-copy reveal"><span class="pill"><span class="pulse" aria-hidden="true"></span>Available for senior &amp; lead frontend roles</span><h1>Senior Frontend Engineer building<!-- --> <span class="hero-underline">production-grade</span> web and mobile products.</h1><p class="lead">I build high-performance web, mobile and desktop products with React, React Native, Angular and Vue. For nine years I have turned dense operational requirements — hospital workflows, payroll rules, IoT device state — into interfaces people can actually use.</p><div class="hero-actions"><a class="btn btn-primary" href="#work">View selected work <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a><button class="btn btn-outline"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>ikismail7@gmail.com</button></div><div class="hero-meta"><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> <!-- -->Chennai, Tamil Nadu, India</span><a href="https://github.com/ikismail" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg> GitHub</a><a href="https://www.linkedin.com/in/ikismail7/" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg> LinkedIn</a><a href="https://x.com/ikismail7" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class=""><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg> X</a></div></div><div class="hero-aside reveal"><div class="card profile-card"><div class="profile-head"><img src="https://avatars.githubusercontent.com/u/17190913?v=4" alt="Mohammed Ismail" width="56" height="56"/><div><strong>Mohammed Ismail</strong><small>React &amp; React Native Specialist</small></div></div><div class="terminal"><div class="terminal-bar" aria-hidden="true"><i></i><i></i><i></i></div><pre><code>~ $ whoami
